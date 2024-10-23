@@ -1,0 +1,11 @@
+number = int(input("enter number: "))
+result1 = (number // 10000)
+result2 = (number % 10000)
+result3 = (result2 // 1000)
+result4 = (result2 % 1000)
+result5 = (result4 // 100)
+result6 = (result4 % 100)
+result7 = (result6 // 10)
+result8 = (result6 % 10)
+
+print(result1, result3, result5, result7, result8)

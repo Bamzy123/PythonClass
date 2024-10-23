@@ -9,3 +9,4 @@ total_payments = duration_years * 12
 monthly_payment = principal * monthly_interest_rate * (1 + monthly_interest_rate) ** total_payments / ((1 + monthly_interest_rate) ** total_payments - 1)
 
 print(f"\nYour monthly mortgage payment is: ${monthly_payment:.2f}")
+ 
