@@ -14,4 +14,4 @@ lon_two = math.radians(lon_two)
 
 distance = Radius_of_earth * math.acos(math.sin(lat_one) * math.sin(lon_one) + math.cos(lat_one) * math.cos(lon_one) * math.cos(lat_two - lon_two))
 
-print(f"The distance between those points is: {distance: .13f}")
+print(f"The distance between those points is: {distance: .13f} km")
