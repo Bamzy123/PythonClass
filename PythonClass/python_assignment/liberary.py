@@ -10,4 +10,4 @@ elif (number <= 29):
 	print ("your fine is 5 rupee")
 
 elif (number > 30):
-	print ("your membership will be cancelled")
+	print ("your membership will be cancelled!!!")
