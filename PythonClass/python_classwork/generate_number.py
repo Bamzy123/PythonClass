@@ -1,21 +1,22 @@
-import random
+"""def math_quiz():
 
-def generate_question():
-	number = random.randint(1, 1000)
-	question = f"What is the sum of {number} + 2?"
-	question_one = f"What is the sum of {number} + 2?"
-	return number, question
-	return number, question_one
+	failed = []
 
-def get_user_answer():
-	number, question = generate_question()
-	print(question)
-	print(question_one)
-	user_answer = int(input("Your answer: "))
-	correct_answer = number + 2
-		if user_answer == correct_answer:
-	print("Correct!")
-	else:
-		print(f"Incorrect. The correct answer is {correct_answer}.")
+	positive_count = 0
 
-get_user_answer()
+	negative_count = 0
+
+	counter = 0
+
+	while ( counter <= 10):
+"""
+
+
+def substration(firstNumber, secondNumber):
+
+	sum = firstNumber % secondNumber
+
+	return sum
+
+result = substration(20, 4)
+print(result)
