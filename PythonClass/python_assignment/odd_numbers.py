@@ -1,6 +1,6 @@
 def print_odd_numbers(numbers):
 
-	for value in numbers:
+	for value in numbers: 
 
 		if value % 2 != 0:
 
