@@ -7,7 +7,7 @@ Today is Monday and the future day is Thursday
 
 pseudocode
 1. Match the day number to the corresponding day name
-2. Get user input for today's day and days elapsed
+2. Get user input for today's day and the days elapsed
 3. Get today's day name
 4. Calculate the future day
 5. Get the future day name

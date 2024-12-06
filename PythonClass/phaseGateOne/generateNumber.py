@@ -14,7 +14,7 @@ pseudocode
 """
 
 
-import random
+import random 
 def generate_number():
 
     num1 = random.randint(1, 99)

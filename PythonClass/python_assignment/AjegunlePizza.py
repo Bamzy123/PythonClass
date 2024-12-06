@@ -39,7 +39,7 @@ def ajegunle_pizza():
 
     print("Welcome to Iya Moses Pizza joint, Ajegunle. \n \n We sell the best and most affordable pizzas in town!")
 
-    order_number = -1
+    order_number = -1 
     while order_number < 0:
         try:
             order_number = int(input("\nEnter the number of people you would like to order for (Each person gets 1 slice of pizza): "))
@@ -61,7 +61,7 @@ def ajegunle_pizza():
     while order_type < 1 or order_type > 4:
         try:
             order_type = int(input("Select a number corresponding to the pizza type you would like to order: "))
-            if order_type < 1 or order_type > 4:
+            if order_type < 1 or order_type > 4: 
                 print("Invalid Order Type. Enter a valid number from the chart above.")
         except ValueError:
             print("Invalid Input, please enter a number.")
@@ -76,4 +76,4 @@ def ajegunle_pizza():
 
     print(f"Total price: {result['total_price']} Naira")
 
-ajegunle_pizza()
+ajegunle_pizza() 

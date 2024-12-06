@@ -4,5 +4,4 @@ for _ in range(10):
     list_of_numbers.append(number)
 
 reverse_list = list_of_numbers[::-1]
-print("Reversed List:", reverse_list)
-
+print("Reversed List:", reverse_list) 
