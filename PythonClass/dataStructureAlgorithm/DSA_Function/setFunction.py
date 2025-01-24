@@ -18,6 +18,5 @@ class setFunction:
         self.set.remove(word)
         self.size -= 1
 
-    def union(self, word):
-        self.set.union(word)
-        self.size += 1
+    def union(self, element):
+        return self.set.union(element)
