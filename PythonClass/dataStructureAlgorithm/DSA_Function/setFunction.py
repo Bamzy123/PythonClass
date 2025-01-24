@@ -19,4 +19,5 @@ class setFunction:
         self.size -= 1
 
     def union(self, word):
-        self.size += self.set.union(word)
+        self.set.union(word)
+        self.size += 1

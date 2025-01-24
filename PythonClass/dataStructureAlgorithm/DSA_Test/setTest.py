@@ -34,7 +34,7 @@ class setTest(unittest.TestCase):
         set_test.add("hello")
         set_test.add("jame")
         set_test.add("hello")
-        set_test.union("hello")
+        set_test.union(word)
         self.assertEqual(3, set_test.size)
 if __name__ == '__main__':
     unittest.main()
