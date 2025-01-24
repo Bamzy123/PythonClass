@@ -62,7 +62,7 @@ def remove_from_cart(cart):
 def checkout(cart):
 
  if not cart:
-       	print("\nYour cart is empty. Nothing to checkout.")
+        print("\nYour cart is empty. Nothing to checkout.")
         return
 
  total = sum(item['price'] for item in cart)

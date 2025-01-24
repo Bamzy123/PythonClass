@@ -13,3 +13,5 @@ Keys = ["name", "age", "city"]
 values = ["Alice", "25", "Lagos"]
 
 print(dictionary(Keys,values))
+
+def dictionary(Keys, Values)
