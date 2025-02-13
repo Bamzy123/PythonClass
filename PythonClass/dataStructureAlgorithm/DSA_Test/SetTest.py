@@ -1,6 +1,6 @@
 import unittest
 
-from DSA_Function.Set import Set
+from Dsa.Set import Set
 
 class SetTest(unittest.TestCase):
     def test_that_sets_are_empty(self):

@@ -1,6 +1,6 @@
 import unittest
 
-from DSA_Function.Array import Array
+from Dsa.Array import Array
 
 
 class ArrayTest(unittest.TestCase):
