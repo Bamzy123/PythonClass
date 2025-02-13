@@ -1,4 +1,4 @@
-class arrayFunction:
+class Array:
     def __init__(self, size):
         self.size = 0
         self.capacity = size

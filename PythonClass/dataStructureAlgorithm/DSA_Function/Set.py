@@ -1,4 +1,4 @@
-class setFunction:
+class Set:
     def __init__(self):
         self.set = set()
         self.size = 0

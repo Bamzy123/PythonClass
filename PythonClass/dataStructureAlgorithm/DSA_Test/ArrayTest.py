@@ -1,12 +1,12 @@
 import unittest
 
-from DSA_Function.arrayFunction import arrayFunction
+from DSA_Function.Array import Array
 
 
-class arrayTest(unittest.TestCase):
+class ArrayTest(unittest.TestCase):
 
     def setUp(self):
-        self.array_test = arrayFunction(5)
+        self.array_test = Array(5)
 
     def test_isEmpty_initial(self):
         self.assertTrue(self.array_test.isEmpty())
