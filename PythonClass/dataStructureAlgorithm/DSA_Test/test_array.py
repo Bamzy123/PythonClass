@@ -1,9 +1,9 @@
 import unittest
 
-from Dsa.Array import Array
+from Dsa.array import Array
 
 
-class ArrayTest(unittest.TestCase):
+class TestArray(unittest.TestCase):
 
     def setUp(self):
         self.array_test = Array(5)

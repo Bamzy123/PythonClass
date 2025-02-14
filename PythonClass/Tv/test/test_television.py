@@ -5,14 +5,14 @@ class TestTelevision(unittest.TestCase):
     def setUp(self):
         self.tv = Television.Television()
 
-    def test_power_on(self):
-        self.tv.turn_on()
-        self.assertTrue(self.tv.is_on)
-
     def test_power_off(self):
         self.tv.turn_on()
         self.tv.turn_off()
         self.assertFalse(self.tv.is_on)
+
+    def test_power_on(self):
+        self.tv.turn_on()
+        self.assertTrue(self.tv.is_on)
 
     def test_increase_volume(self):
         self.tv.turn_on()
@@ -73,7 +73,7 @@ class TestTelevision(unittest.TestCase):
         self.tv.mute()
         self.assertFalse(self.tv.is_muted)
 
-    def test_unmuted_when_volume_changes(self):
+    def test_unmute_when_volume_changes(self):
         self.tv.turn_on()
         self.tv.mute()
         self.assertTrue(self.tv.is_muted)

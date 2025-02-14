@@ -18,3 +18,7 @@ class Account:
 
     def getBalance(self):
         return self.balance
+
+    def check_balance(self, pin):
+        if pin != self.pin:
+            raise ValueError('Current PIN does not match')
