@@ -4,19 +4,12 @@ from Functions.account import Account
 class Banks:
     def __init__(self):
         self.accounts = {}
+        self.next_account_number = 1000
 
-    def create_account(self, pin, name):
-        if name in self.accounts:
-            raise ValueError("Account with this name already exists")
-        self.accounts[name] = Account(pin, name)
-
-    def find_account(self, name):
-        for account in self.accounts:
-            if account.name == name:
-                return account
-        return None
-
-    def deposit(self, amount, name):
-        account = self.find_account(name)
-        if account is not None:
-            account.amount += amount
+    def create_account(self,name, pin):
+       if any(acct.name == name for acct in self.accounts.values()):
+           raise ValueError("Account with name {} already exists")
+       account_number = self.next_account_number
+       self.accounts[account_number] = Account(account_number,pin, name)
+       self.next_account_number += 1
+       return account_number
