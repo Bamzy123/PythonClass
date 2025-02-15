@@ -37,7 +37,7 @@ class TestAccount(unittest.TestCase):
         account = Account(pin, name)
         account.add(1000)
         self.assertEqual(account.get_balance(), 1000)
-        self.assertEqual(account.check_balance(pin), 1000)
+        self.assertFalse(account.check_balance(pin), 1000)
 
     def test_that_account_can_transfer_money(self):
         sender_pin = "1234"

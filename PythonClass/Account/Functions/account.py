@@ -20,9 +20,7 @@ class Account:
         return self.balance
 
     def check_balance(self, pin):
-        if pin != self.pin:
-            raise PermissionError('Current PIN does not match')
-        return self.balance
+        return self.balance == pin
 
     def transfer(self, amount, receiver, sender_pin):
         if sender_pin != self.pin:
