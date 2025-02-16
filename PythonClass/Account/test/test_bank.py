@@ -19,7 +19,7 @@ class TestBank(unittest.TestCase):
 
     def test_account_creation(self):
         self.assertEqual(len(self.bank.accounts), 2)
-        self.assertEqual(self.acct1,1000)
+        self.assertEqual(self.acct1, 1000)
         self.assertEqual(self.acct2, 1001)
 
         with self.assertRaises(ValueError):
