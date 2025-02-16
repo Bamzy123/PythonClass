@@ -1,8 +1,6 @@
 import unittest
 
 from Functions import bank
-from Functions.account import Account
-
 
 class TestBank(unittest.TestCase):
     def setUp(self):
