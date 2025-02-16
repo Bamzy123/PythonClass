@@ -20,6 +20,10 @@ class Banks:
         account = self.get_account(acct1)
         if not account:
             raise ValueError("Account not found")
+        return account
+
+    def deposit(self, account_number, amount):
+        account = self.get_account(account_number)
         account.deposit(amount)
 
     def withdraw(self, account_number, amount, pin):
