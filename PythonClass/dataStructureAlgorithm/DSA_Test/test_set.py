@@ -2,7 +2,7 @@ import unittest
 
 from Dsa.set import Set
 
-class SetTest(unittest.TestCase):
+class TestSet(unittest.TestCase):
     def test_that_sets_are_empty(self):
         set_test = Set()
         self.assertTrue(set_test.is_empty)
