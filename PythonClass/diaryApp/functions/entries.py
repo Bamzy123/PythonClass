@@ -5,7 +5,7 @@ class Entry:
         self.id = entry_id
         self.title = title
         self.body = body
-        self.time = datetime.now()
+        self.time = datetime.now().replace(microsecond=0).replace(microsecond=0)
 
     def update(self, new_title, new_body):
         if not new_title or not new_body:

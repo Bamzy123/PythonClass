@@ -20,22 +20,18 @@ def main_application():
     else:
         print("Diary unlocked successfully!")
 
-    menu = (
-        "\nSelect an option:\n"
-        "1. Create a new entry\n"
-        "2. Update an existing entry\n"
-        "3. Delete an entry\n"
-        "4. View an entry\n"
-        "5. Lock diary\n"
-        "6. Unlock diary\n"
-        "7. Exit\n"
-    )
-
     while True:
-        print(menu)
-        choice = input("Enter your choice: ").strip()
+        print("\n===== Main Menu ===== ")
+        print("1. Create a new entry")
+        print("2. Update an existing entry")
+        print("3. Delete an existing entry")
+        print("4. View all entries")
+        print("5. Lock diary")
+        print("6. Unlock diary")
+        print("7. Exit")
+        choice = input("Enter your choice (1-7): ").strip()
 
-        if choice == "1":
+        if choice == '1':
             title = input("Enter entry title: ").strip()
             body = input("Enter entry body: ").strip()
             try:
@@ -44,10 +40,9 @@ def main_application():
             except Exception as e:
                 print("Error:", e)
 
-        elif choice == "2":
+        elif choice == '2':
             try:
-                update_id_str = input("Enter the ID of the entry to update: ").strip()
-                update_id = int(update_id_str)
+                update_id = int(input("Enter the ID of the entry to update: ").strip())
                 new_title = input("Enter new title: ").strip()
                 new_body = input("Enter new body: ").strip()
                 diary.update_entry(update_id, new_title, new_body)
@@ -55,26 +50,24 @@ def main_application():
             except Exception as e:
                 print("Error:", e)
 
-        elif choice == "3":
+        elif choice == '3':
             try:
-                delete_id_str = input("Enter the ID of the entry to delete: ").strip()
-                delete_id = int(delete_id_str)
+                delete_id = int(input("Enter the ID of the entry to delete: ").strip())
                 diary.delete_entry(delete_id)
                 print("Entry deleted successfully.")
             except Exception as e:
                 print("Error:", e)
 
-        elif choice == "4":
+        elif choice == '4':
             try:
-                view_id_str = input("Enter the ID of the entry to view: ").strip()
-                view_id = int(view_id_str)
+                view_id = int(input("Enter the ID of the entry to view: ").strip())
                 entry = diary.find_entry_by_id(view_id)
                 if entry:
                     details = (
-                        f"ID: {entry.id()}\n"
-                        f"Title: {entry.title()}\n"
-                        f"Body: {entry.body()}\n"
-                        f"Created On: {entry.time()}\n"
+                        f"ID: {entry.id}\n"
+                        f"Title: {entry.title}\n"
+                        f"Body: {entry.body}\n"
+                        f"Created On: {entry.time}\n"
                     )
                     print(details)
                 else:
@@ -82,19 +75,21 @@ def main_application():
             except Exception as e:
                 print("Error:", e)
 
-        elif choice == "5":
+        elif choice == '5':
             diary.lock_diary()
             print("Diary has been locked.")
 
-        elif choice == "6":
+        elif choice == '6':
             unlock_pass = input("Enter the password to unlock your diary: ").strip()
-            diary.unlock_diary(unlock_pass)
-            if diary.is_locked():
-                print("Incorrect password, Diary remains locked.")
-            else:
-                print("Diary unlocked successfully!")
-
-        elif choice == "7":
+            try:
+                diary.unlock_diary(unlock_pass)
+                if diary.is_locked():
+                    print("Incorrect password, Diary remains locked.")
+                else:
+                    print("Diary unlocked successfully!")
+            except ValueError as e:
+                print("Error unlocking diary: ", e)
+        elif choice == '7':
             print("Exiting the Diary App, Goodbye!")
             break
 

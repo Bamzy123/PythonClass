@@ -2,12 +2,11 @@ import unittest
 
 from functions.diary import Diary
 
-
 class DiaryTest(unittest.TestCase):
     def test_that_diary_can_be_created(self):
         name = "stephen"
         password = "password123"
-        diary = (name, password)
+        diary = Diary(name, password)
         self.assertIsNotNone(diary)
 
     def test_that_diary_is_locked(self):
