@@ -4,6 +4,7 @@ def get_seven_segment_display(digit: int) -> list:
         raise ValueError("Digit must be between 0 and 9")
 
     display = [[' ' for _ in range(4)] for _ in range(5)]
+
     segments = get_booleans(digit)
 
     if segments[0]:
