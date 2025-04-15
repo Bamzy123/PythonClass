@@ -18,4 +18,4 @@ content = "ths your bby"
 
 yg.send(to=recipient, subject=subject, contents=content)
 
-print("Email sent successfully!")
+print("Email sent successfully!!!")
