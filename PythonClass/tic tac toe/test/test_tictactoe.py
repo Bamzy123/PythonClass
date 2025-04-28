@@ -8,7 +8,7 @@ from tictactoe.player import Player
 class TestBoard(unittest.TestCase):
     def setUp(self):
         self.board = Board()
-        self.player = Player("stephen", "X")
+        self.player1 = Player("stephen", "X")
         self.player2 = Player("sam", "O")
 
     def test_initial_board(self):
@@ -16,7 +16,7 @@ class TestBoard(unittest.TestCase):
         self.assertEqual(self.board.grid, expected)
 
     def test_valid_move(self):
-        self.board.make_move(0, 0, 'X', self.player)
+        self.board.make_move(0, 0, 'X', self.player1)
         self.assertEqual(self.board.grid[0][0], 'X')
 
     def test_invalid_move(self):

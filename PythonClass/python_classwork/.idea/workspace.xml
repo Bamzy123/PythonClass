@@ -5,62 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5e99847-f0de-4217-98ba-e03b4b1e604a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../dataStructureAlgorithm/DSA_Function/setFunction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructureAlgorithm/DSA_Test/setTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practices/find_movie_cast.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonClass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../phaseGateOne/PythonClass" beforeDir="false" afterPath="$PROJECT_DIR$/../phaseGateOne/PythonClass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practices/reverse_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practices/reverse_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_and_existing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/add_and_existing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/add_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aseriskes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/aseriskes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boolean.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/boolean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capitalize.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/capitalize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/classTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divide_or_square_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/divide_or_square_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/even.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/even.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/even_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/even_count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/even_count_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/even_count_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/even_nmber.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/even_nmber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/even_number_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/even_number_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter_odd_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/filter_odd_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/first_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstnumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/firstnumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functionTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/functionTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/generate_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_bool.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/get_bool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_prime_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/get_prime_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_square.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/get_square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jessica_e-store.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/jessica_e-store.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/loop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morning_tea.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/morning_tea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiple.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/multiple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_dict .py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/my_dict .py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/my_dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_kithen.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/my_kithen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nested_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/nested_dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number_multiple.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/number_multiple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/populate_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/populate_value.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyramid.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/pyramid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remove_letter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/remove_letter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remove_vowel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/remove_vowel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverseLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/reverseLoop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scores.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/scores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/six_times_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/six_times_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/squared_odd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/squared_odd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/string_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/student_result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/student_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/students_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenary.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/tenary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testOne.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/testOne.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_divide_or_square_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/test_divide_or_square_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thursdayTask.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/thursdayTask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcome.py" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork/welcome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +69,10 @@
       <workItem from="1736835882030" duration="9332000" />
       <workItem from="1736930722782" duration="587000" />
       <workItem from="1737626125390" duration="593000" />
+      <workItem from="1738314633121" duration="308000" />
+      <workItem from="1738749355718" duration="330000" />
+      <workItem from="1738866136855" duration="67000" />
+      <workItem from="1738866709502" duration="163000" />
     </task>
     <servers />
   </component>

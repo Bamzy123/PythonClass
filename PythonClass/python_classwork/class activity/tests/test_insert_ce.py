@@ -1,5 +1,5 @@
 import unittest
-from corn.insert import insert_ce
+from corn.insertce import insert_ce
 
 class TestInsert(unittest.TestCase):
     def test_insert_ce_helloo(self):

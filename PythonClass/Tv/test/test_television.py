@@ -1,9 +1,9 @@
 import unittest
-from Functions import Television
+from Functions import television
 
 class TestTelevision(unittest.TestCase):
     def setUp(self):
-        self.tv = Television.Television()
+        self.tv = television.Television()
 
     def test_power_off(self):
         self.tv.turn_on()

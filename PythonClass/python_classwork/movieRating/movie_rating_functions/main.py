@@ -14,7 +14,7 @@ def main_menu():
         print("4. Get Overall Average Rating of All Movies")
         print("5. View All Movies")
         print("6. Exit")
-        choice = input("Enter your choice (1-6): ")
+        choice = input("Enter your choice (1-6): ").strip()
 
         if choice == "1":
             movie_name = input("Enter the movie name: ").strip().lower()
@@ -27,7 +27,7 @@ def main_menu():
         elif choice == "2":
             movie_name = input("Enter the movie name: ").strip().lower()
             try:
-                rating = int(input("Enter rating (1-5): "))
+                rating = int(input("Enter rating (1-5): ")).strip
                 avg_rating = movie_db.movie_rating(movie_name, rating)
                 print(f"New average rating for '{movie_name}': {avg_rating}")
             except (MovieNotFoundError, InvalidRatingError) as e:

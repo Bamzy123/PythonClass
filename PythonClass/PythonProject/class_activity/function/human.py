@@ -28,16 +28,20 @@ def register_user():
     save_to_file(user_email, hash_password(password))
 
 def validate_user(user_email, password):
-    with open(USER_DETAILS, 'r') as file:
-        details = file.read()
-        for line in details.split('\n'):
-            stored_user_email, stored_password = line.split(':')
-            # print(stored_password)
-            if user_email == stored_user_email:
-                return bcrypt.checkpw(password.encode('utf-8'), stored_password.encode('utf-8'))
+   try:
+        with open(USER_DETAILS, 'r') as file:
+            # details = file.read()
+            # for line in details.s plit('\n'):
+            for line in file:
+                stored_user_email, stored_password = line.strip().split(':')
+                # print(stored_password)
+                if user_email == stored_user_email:
+                    return bcrypt.checkpw(password.encode('utf-8'), stored_password.encode('utf-8'))
+   except FileNotFoundError:
+       print("User details file not found")
 
 def login_user():
-    user_email = input("Enter your username: ")
+    user_email = input("Enter your email: ")
     password = input("Enter your password: ")
     if validate_user(user_email, password):
         print("Login successful")
